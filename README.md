@@ -1,15 +1,15 @@
 # mypkg
 [![test](https://github.com/JunichiOmura/mypkg/actions/workflows/test.yml/badge.svg)](https://github.com/JunichiOmura/mypkg/actions/workflows/test.yml)
 
-　これはtalker.pyがcountupというトピックにInt16型のメッセージで０から増幅する整数のパブリッシャを製作し、パブリッシュするノードを制作している。
-　そしてlistener.py
+　これはtalker.pyがcountupというトピックにInt16型のメッセージで０から増幅する整数のパブリッシャを製作し、パブリッシュしている。
+　そしてlistener.pyはcountupというトピックからInt16型のメッセージを受信し、ターミナルに表示する。
 
 
 #ノード
 * talker.py
 
 * listener.py
-このノードはtalker.pyから
+
 
 
 
