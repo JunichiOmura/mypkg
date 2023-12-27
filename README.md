@@ -28,6 +28,7 @@ listener.pyはcountupというトピックからInt16型のメッセージを受
 ```
 $ ros2 run mypkg listener
 ```
+以下のように実行結果が表示される。
 ```
 [INFO] [1703684534.191590416] [listener]: Listen: 0
 [INFO] [1703684534.685441583] [listener]: Listen: 1
@@ -47,6 +48,29 @@ $ ros2 run mypkg listener
 ```
 ※この場合はtalkerとは別のターミナルを使用しなければならない
 
+### ＊talkerとlistenerを同じターミナル上で同時に実行する方法
+以下のコマンドを実行する。
+```
+$ ros2 launch mypkg talk_listen.launch.py
+
+```
+以下のように実行結果が表示される。
+```
+[listener-2] [INFO] [1703689869.798613476] [listener]: Listen: 0
+[listener-2] [INFO] [1703689870.290407114] [listener]: Listen: 1
+[listener-2] [INFO] [1703689870.790520111] [listener]: Listen: 2
+[listener-2] [INFO] [1703689871.291008816] [listener]: Listen: 3
+[listener-2] [INFO] [1703689871.790622211] [listener]: Listen: 4
+[listener-2] [INFO] [1703689872.290361272] [listener]: Listen: 5
+[listener-2] [INFO] [1703689872.790439424] [listener]: Listen: 6
+[listener-2] [INFO] [1703689873.290564526] [listener]: Listen: 7
+[listener-2] [INFO] [1703689873.790342674] [listener]: Listen: 8
+[listener-2] [INFO] [1703689874.290513093] [listener]: Listen: 9
+[listener-2] [INFO] [1703689874.790406557] [listener]: Listen: 10
+                             ・
+　　　　　　　　　　　　　　 ・
+                             ・
+```
 
 ## 必要なソフトウェア
 * Python 3.8.10
