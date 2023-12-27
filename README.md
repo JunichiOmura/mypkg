@@ -43,7 +43,7 @@ $ ros2 run mypkg listener
 [INFO] [1703684539.185802176] [listener]: Listen: 10
 [INFO] [1703684539.685535859] [listener]: Listen: 11
 　　　　　　　　　　　　　・
-　　　　　　　　　　　　　・
+　　　　　　　　　　　　  ・
 　　　　　　　　　　　　　・
 ```
 ※この場合はtalkerとは別のターミナルを使用しなければならない
