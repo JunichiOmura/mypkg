@@ -67,9 +67,10 @@ $ ros2 launch mypkg talk_listen.launch.py
 [listener-2] [INFO] [1703689873.790342674] [listener]: Listen: 8
 [listener-2] [INFO] [1703689874.290513093] [listener]: Listen: 9
 [listener-2] [INFO] [1703689874.790406557] [listener]: Listen: 10
-                             ・
-　　　　　　　　　　　　　　 ・
-                             ・
+　　　　　　　　　　　　　　　・
+　　　　　　　　　　　　　　　・
+　　　　　　　　　　　　　　　・
+　　　　　　　　　　　　　　　
 ```
 
 ## 必要なソフトウェア
