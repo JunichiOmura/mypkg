@@ -70,7 +70,6 @@ $ ros2 launch mypkg talk_listen.launch.py
 　　　　　　　　　　　　　　　・
 　　　　　　　　　　　　　　　・
 　　　　　　　　　　　　　　　・
-　　　　　　　　　　　　　　　
 ```
 
 ## 必要なソフトウェア
