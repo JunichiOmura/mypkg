@@ -27,6 +27,8 @@ listener.pyはcountupというトピックからInt16型のメッセージを受
 以下のコマンドを実行する。
 ```
 $ ros2 run mypkg listener
+```
+```
 [INFO] [1703684534.191590416] [listener]: Listen: 0
 [INFO] [1703684534.685441583] [listener]: Listen: 1
 [INFO] [1703684535.185240049] [listener]: Listen: 2
