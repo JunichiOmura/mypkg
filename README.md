@@ -1,6 +1,8 @@
 # mypkg
 [![test](https://github.com/JunichiOmura/mypkg/actions/workflows/test.yml/badge.svg)](https://github.com/JunichiOmura/mypkg/actions/workflows/test.yml)
+
 このパッケージはtalkerがトピックに0から順にカウントアップする整数をメッセージとしてパブリッシュし、それからlistenerが読み取ることでターミナルに表示させるものである。
+
 ※このリポジトリは2023年度ロボットシステム学の講義にて制作したものである。
 
 ## 使用方法
