@@ -6,13 +6,13 @@
 ※このリポジトリは2023年度ロボットシステム学の講義にて制作したものである。
 
 ## 使用方法
-### ＊インストール方法
+### インストール方法
 以下のコマンドを実行する。
 ```
 $ git clone https://github.com/JunichiOmura/mypkg.git
 ```
 
-### ＊talker.py
+### talker.py
 talker.pyはcountupというトピックに０から順に増幅するInt16型の整数のメッセージをパブリッシャとして製作している。
 
 以下のコマンドを実行する。
@@ -21,7 +21,7 @@ $ ros2 run mypkg talker
 ```
 実行結果は表示されていない
 
-### ＊listener.py
+### listener.py
 listener.pyはcountupというトピックからInt16型のメッセージを受信し、ターミナルに表示させている。
 
 以下のコマンドを実行する。
@@ -48,7 +48,7 @@ $ ros2 run mypkg listener
 ```
 ※この場合はtalkerとは別のターミナルを使用しなければならない
 
-### ＊talkerとlistenerを同じターミナル上で同時に実行する方法
+### talkerとlistenerを同じターミナル上で同時に実行する方法
 以下のコマンドを実行する。
 ```
 $ ros2 launch mypkg talk_listen.launch.py
